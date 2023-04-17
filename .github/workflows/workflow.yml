@@ -21,7 +21,7 @@ jobs:
 
       - name: Install and build
         working-directory: .
-        run: npm install && npm run build
+        run: npm install --force && npm run build
       
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
