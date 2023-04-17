@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AddUserComponent } from './add-user/add-user.component';
 import { UserListComponent } from './user-list/user-list.component';
-import { HomeComponent } from './home/home.component';
 
 import { ButtonModule } from 'primeng/button';
 import { TableModule } from 'primeng/table';
@@ -22,8 +21,7 @@ import { UserService } from './service/user.service';
     AppComponent,
     NavBarComponent,
     AddUserComponent,
-    UserListComponent,
-    HomeComponent
+    UserListComponent
   ],
   imports: [
     BrowserModule,
