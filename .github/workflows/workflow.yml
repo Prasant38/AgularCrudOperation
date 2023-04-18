@@ -30,8 +30,10 @@ jobs:
           node-version: 18.x
 
       - name: Install and build
-        working-directory: .
-        run: npm install --force && npm run build
+        run: |
+              npm install -g @vue/cli yarn
+              yarn install
+              yarn build
       
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
