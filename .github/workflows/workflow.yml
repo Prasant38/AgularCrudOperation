@@ -40,5 +40,5 @@ jobs:
         env:
           REPO: self
           BRANCH: master
-          FOLDER: dist
+          FOLDER: dist/CrudOperation
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
